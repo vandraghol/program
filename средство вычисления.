@@ -1,0 +1,10 @@
+a=int(input("По-братски введи кол во элементов "))
+b=[]
+for i in range(0,a):
+    c=int(input("Элемент вводи "))
+    b.append(c)
+for i in b:
+    if i%2==1:
+
+        print(i)
+ 
